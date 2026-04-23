@@ -29,6 +29,9 @@ void calcularDerivada() {
 
     printf("Função original: f(x) = %dx^2 + %dx + %d\n", a, b, c);
 
+    if (b >= 0){
+        printf("Derivada: f'(x) = %dx + %d\n", 2*a, b);
+    }
 }
     
 int main() {
