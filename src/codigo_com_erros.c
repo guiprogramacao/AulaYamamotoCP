@@ -9,7 +9,7 @@ int main() {
     printf("Digite a segunda nota: ");
     scanf("%f", &nota2); //Faltou o "E" comercial antes do nota 2
 
-    media = nota1 + nota2 / 2;
+    media = (nota1 + nota2) / 2; //Falta dos parênteses no nota1 e nota 2 para respeitar as regras matemáticas na hora do calculo da média
 
     if (media = 6) {
         printf("Aluno aprovado\n");
