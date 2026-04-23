@@ -39,7 +39,17 @@ void calcularDerivada() {
 }
     
 int main() {
+    int opcao;
 
+    do {
+        printf("\n=== MENU ===\n");
+        printf("1 - Calcular média\n");
+        printf("2 - Classificação acadêmica\n");
+        printf("3 - Calcular derivada\n");
+        printf("0 - Sair\n");
+        printf("Escolha: ");
+        scanf("%d", &opcao);
+    } while(opcao != 0);
     
     return 0;
 }
