@@ -32,6 +32,10 @@ void calcularDerivada() {
     if (b >= 0){
         printf("Derivada: f'(x) = %dx + %d\n", 2*a, b);
     }
+     else{
+        printf("Derivada: f'(x) = %dx - %d\n", 2*a, -b);
+    }
+        
 }
     
 int main() {
