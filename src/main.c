@@ -11,10 +11,15 @@ void aprovar (float media){
         printf("recuperacao");
     } else {
         printf("reprovado");
-        
+
     }
 }
 
+// Função para derivada
+void calcularDerivada() {
+    int a, b, c;
+}
+    
 int main() {
 
     
