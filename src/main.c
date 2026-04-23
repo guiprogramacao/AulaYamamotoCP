@@ -9,6 +9,9 @@ void aprovar (float media){
         printf("Aluno aprovado");
     } else if (media <7 && media >= 5) {
         printf("recuperacao");
+    } else {
+        printf("reprovado");
+        
     }
 }
 
