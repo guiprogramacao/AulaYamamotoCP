@@ -17,7 +17,18 @@ void aprovar (float media){
 
 // Função para derivada
 void calcularDerivada() {
-    int a, b, c;
+    int a; 
+    int b;
+    int c;
+    printf("Digite o valor de a: ");
+    scanf("%d", &a);
+    printf("Digite o valor de b: ");
+    scanf("%d", &b);
+    printf("Digite o valor de c: ");
+    scanf("%d", &c);
+
+    printf("Função original: f(x) = %dx^2 + %dx + %d\n", a, b, c);
+
 }
     
 int main() {
