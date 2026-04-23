@@ -70,6 +70,16 @@ int main() {
                 classificacao(media);
                 break;
             }
+            case 3:
+                calcularDerivada();
+                break;
+
+            case 0:
+                printf("Saindo...\n");
+                break;
+
+            default:
+                printf("Opção inválida!\n");
         } 
     } while(opcao != 0);
     
