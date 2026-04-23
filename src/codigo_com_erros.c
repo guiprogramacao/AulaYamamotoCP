@@ -11,8 +11,8 @@ int main() {
 
     media = (nota1 + nota2) / 2; //Falta dos parênteses no nota1 e nota 2 para respeitar as regras matemáticas na hora do calculo da média
 
-    if (media = 6) {
-        printf("Aluno aprovado\n");
+    if (media >= 6 && media <= 10) { // Não especificava o intervalo
+        printf("Aluno aprovado\n"); 
     } else {
         printf("Aluno reprovado\n");
     }
