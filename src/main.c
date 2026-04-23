@@ -49,6 +49,28 @@ int main() {
         printf("0 - Sair\n");
         printf("Escolha: ");
         scanf("%d", &opcao);
+        switch(opcao) {
+            case 1: {
+                float n1, n2, n3, media;
+
+                printf("Digite 3 notas: ");
+                scanf("%f %f %f", &n1, &n2, &n3);
+
+                media = calcularMedia(n1, n2, n3);
+                printf("Média = %.2f\n", media);
+                break;
+            }
+
+            case 2: {
+                float media;
+
+                printf("Digite a média: ");
+                scanf("%f", &media);
+
+                classificacao(media);
+                break;
+            }
+        } 
     } while(opcao != 0);
     
     return 0;
